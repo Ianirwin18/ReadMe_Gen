@@ -2,7 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const generateMd = require("./assets/generateMd");
+const generateMd = require("./assets/generateMarkdown.js");
 
 // create the fs.writeFile function to promisify async
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -79,15 +79,10 @@ const generateReadMe = (fileName, data) => {
 // function for initializing the application 
 const init = async () => {
     try {
-        console.log("Hello! To generate a README, \nPlease answer the following questions:")
+        console.log("Please answer the following questions:")
 
-        // prompt questions for user to answer
         const answers = await promptUser();
-
-        // create ReadMe.md using users answers
         const fileMd = generateMd(answers);
-
-        // generate ReadMe file using users answers
         await generateReadMe("./newREADME/README.md", fileMd);
 
         // notify user that the new ReadMe file has been generated

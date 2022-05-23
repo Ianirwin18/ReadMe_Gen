@@ -1,6 +1,6 @@
 # ReadMe_Gen
 
-Create a easy professional README.md generator.
+Create an easy and professional README.md generator.
 
 # Description
 
@@ -8,7 +8,7 @@ Create a command-ling README.md generator using inquirer and invoking "node inde
 
 # Demo
 
-<img source" ">
+Video Link: <a> href="" </a>
 
 # Usage 
 
