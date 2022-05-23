@@ -4,15 +4,24 @@ Create an easy and professional README.md generator.
 
 # Description
 
-Create a command-ling README.md generator using inquirer and invoking "node index.js"
+* Create a README.md by using the Inquirer package and node.js
+* Include a Demo Walkthrough.
+* Include Screenshot of sample README.md
 
 # Demo
 
-Video Link: <a> href="" </a>
+Demo Link: https://drive.google.com/file/d/1SxV1Iv07HtI1SuJB1FegefKlL__XBVaF/view?usp=sharing
 
-# Usage 
+# ScreenShots
 
-After installing is complete simply run the app with "node index.js"
+<p align="center">
+    <img alt="Demo Screenshot" src="./assets/screenshots/Demo.png">
+</p>
+
+# Resources
+
+* Node.js
+* Inquirer.js
 
 # License
 
@@ -22,3 +31,9 @@ This repository is licensed under the MIT license.
 
 * Email: Ianirwin18@gmail.com
 * Github: IanIrwin18
+
+# Links
+
+* Github: https://github.com/Ianirwin18
+
+* Demo Video: https://drive.google.com/file/d/1SxV1Iv07HtI1SuJB1FegefKlL__XBVaF/view?usp=sharing
